@@ -1,6 +1,9 @@
 <% content_for :head do %>
-<meta name="titile" content="<%= @item.title%>-monolist" />
+<title>
+  <%= @item.title%> - Monolist
+</title>
 <meta name="description" content="<%= @item.title %>に関する情報です。この商品を欲しい人、持ってる人を表示しています。" />
+<meta name="keywords" content="Monolist,<%= @item.title%>" />
 <% end %>
 
 <div class="container">
